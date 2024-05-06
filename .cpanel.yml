@@ -1,0 +1,5 @@
+---
+deployment:
+      tasks:
+        - export DEPLOYPATH=/home/m4uzupw4ke0l/git/odba/
+        - /bin cp * $DEPLOYPATH
