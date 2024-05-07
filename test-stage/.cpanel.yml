@@ -1,9 +1,0 @@
----
-deployment:
-      tasks:
-        - export REPOPATH=/home/m4uzupw4ke0l/git/odba/
-	- export TESTPATH=/home/m4uzupw4ke0l/test-stage/
-	- export RELEASEPATH=/home/m4uzupw4ke0l/public_html/
-        - /bin cp * $REPOPATH
-	- /bin cp /test-stage/* $TESTPATH
-        - /bin cp /release/* $RELEASEPATH
