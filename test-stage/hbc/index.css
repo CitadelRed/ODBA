@@ -513,7 +513,7 @@ a{
 }
 .image-03{
     padding:30px;
-    min-height: 920px;
+    min-height:0px;
     background-color:rgba(216,255,218,1.00);
 }
 .image-03 h1{
@@ -572,6 +572,9 @@ a{
     border-color:rgba(0,0,0,0.00) rgba(0,0,0,0.00) rgba(0,0,0,0.00) rgba(0,0,0,1.00);
     border-width:5px;
     }
+    .image-03{
+    min-height: 920px;
+    }
 }
 @media only screen and (min-width:992px){
     .line{
@@ -583,7 +586,7 @@ a{
 }
 @media only screen and (min-width:1200px){
     .image-03, .image-02, .image-04{
-    min-height: 920px;
+    min-height: 950px;
     }
     [class*="div-g-"] {
     min-height:500px;
@@ -703,7 +706,7 @@ p-div .row {
     overflow-wrap:break-word;
 }
 .box-01{
-    min-height:500px;
+    min-height:0px;
 }
 .sup-div h3{
     color:rgba(15,103,0,1.00);
@@ -745,6 +748,9 @@ p-div .row {
     .absolute{
         top:40%;
     }
+    .box-01{
+        min-height:000px;
+    }
 }
 @media only screen and (min-width:992px){
     .absolute{
@@ -756,7 +762,7 @@ p-div .row {
 }
 @media only screen and (min-width:1200px){
     .box-01{
-        min-height:800px;
+        min-height:900px;
     }
 }
 @media only screen and (min-width:1800px){
