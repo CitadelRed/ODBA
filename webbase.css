@@ -76,6 +76,7 @@ img{
 }
 .button{
     background-color:rgba(92,225,230,1.00);
+    border: solid 2px rgba(0,0,0,1.00);
 }
 .button a h3{
     color: rgba(6,63,73,1.00);
@@ -123,6 +124,9 @@ hr{
 	float:left;
 	display:none;
 	padding:0px;
+}
+.jumbotext .button{
+    margin: 10px 10px;
 }
 .jumbotext p{
 	text-align:center;
@@ -174,9 +178,14 @@ hr{
 	width:100%;
 	height:auto;
 }
-.port-list{
+.port-piece{
     margin:10px;
+    height:auto;
     background-color:rgba(92,225,230,1.00);
+}
+.port-piece h3, .port-piece p{
+    color:rgba(0,0,0,1.00);
+    text-shadow: 3px 3px 5px rgba(0,0,0,0.60);
 }
 .sitemap img{
     margin:10px 0px;
