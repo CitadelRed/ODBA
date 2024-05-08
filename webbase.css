@@ -279,6 +279,9 @@ header{
 	margin:5px;
 	padding:0px;
 }
+.logodiv{
+    width:16.66%;
+}
 /* Nav menu */
 .navbar{
 	height:300px;
