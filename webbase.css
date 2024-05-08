@@ -74,6 +74,10 @@ img{
     width:100%;
     height:auto;
 }
+.logodiv{
+    float:left;
+    width:16.66%;
+}
 .button{
     background-color:rgba(92,225,230,1.00);
     border: solid 2px rgba(0,0,0,1.00);
@@ -278,9 +282,6 @@ header{
 	display: inline-block;
 	margin:5px;
 	padding:0px;
-}
-.logodiv{
-    width:16.66%;
 }
 /* Nav menu */
 .navbar{
