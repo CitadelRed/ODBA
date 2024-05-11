@@ -67,3 +67,17 @@ Check-07 Server-Testing-03
 -sitewide change for JavaScript based on about.html
 -change sitemap to reflect new success.html
 -make success.html
+
+Check-08 Server-Testing-04
+-nav links show | not -> for cursor
+-sitewide change email at footer not to redirect
+-add "change this text" to erase contact.html
+-nav display none again
+-sub-menu display none again
+
+Check-09 Server-Testing-05
+-sitewide change email to erase "Email Address"
+-sitewide include target="_blank" to social links
+edit sitemap to include social links
+
+WE ARE DONE WITH SERVER TESTING !!!! WOHOOOO! 
