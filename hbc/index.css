@@ -601,7 +601,7 @@ a{
     .m-header{
         display:block;
     }
-    .image-03{
+    .image-03, .image-02, .image-04{
         min-height:0px;
     }
 }
@@ -642,7 +642,10 @@ a{
     margin:20px;
 }
 #submit-suc{
-    display: none;
+    display: block;
+    width:100%;
+    text-align:center;
+    color:
 }
 p-div .row {
     display: flex;
@@ -738,7 +741,7 @@ p-div .row {
     color:rgba(255,255,255,1.00);
 }
 
-.absolute .button h3:hover{
+.absolute .button h3:hover, .button h3{
     color:rgba(220,69,71,1.00);
 }
 @media only screen and (min-width:720px){
@@ -795,7 +798,12 @@ p-div .row {
     min-height:350px;
     }  
 }
-
+#submit-suc{
+    display:none;
+}
+.sub-show{
+    display:block;
+}
 /*begin footer*/
 .footer{
     background-color:rgba(160,221,136,1.00);

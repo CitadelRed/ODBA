@@ -223,7 +223,7 @@
         <div class="col-m-1 col-1 margindiv"></div>
     </div>
     <!--begin footer-->
-    <div class="row footer">
+     <div class="row footer">
         <div class="col-m-1 col-1"></div>
         <div class="col-m-10 col-10">
             <div class="row">
@@ -261,12 +261,12 @@
         </div>
         <div class="row signup">
             <div class="row">
-                <h1>Get our Email Newsletter</h1>
+                <h1 id="newslettertext">Get our Email Newsletter</h1>
             </div>
             <div class="row newsletter">
                 <form class="news-form" action="/action_page.php">
-                    <input type="text" class="col-m-10 col-10 email" value="Email Address">
-                    <input type="submit" class="col-m-2 col-2 submit" value="Sign Up">
+                    <input type="email" class="col-m-10 col-10 email" value="Email Address">
+                    <input type="submit" class="col-m-2 col-2 submit" value="Sign Up" onclick="success01()">
                 </form>
             </div>
         </div>
@@ -279,6 +279,7 @@
     var pic2 = document.getElementById("pic2");
     var pic3 = document.getElementById("pic3");
     var pic4 = document.getElementById("pic4");
+    var suc1 = document.getElementById("newslettertext");
     function showHamb() {
         var x = document.getElementById("nav");
         if (x.style.display === "none") {
@@ -354,13 +355,13 @@
                 pic4.style.display = "grid";
         } 
     }
-    function successMessage() {
-        var sub = document.getElementById("submit-suc");
-        if (sub.style.display === "none") {
-            sub.style.display = "block";
-        }
+    function success01(){
+        suc1.innerHTML = "Thank You for Signing Up!";
+        setTimeout(revertEmail, 5000);
     }
-    
+    function revertEmail(){
+         suc1.innerHTML = "Get our Email Newsletter";
+    }
 </script>
 </body>
 </html>

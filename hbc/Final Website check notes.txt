@@ -43,10 +43,27 @@ Check-04
 turned gift shop items yellow to match the theme better
 optimized for super duper high def screens
 
-Check-05
+Check-05 Server-Testing-01
+-Many image links are broken
+
+Check-06 Server-Testing-02
 -slightly increase event height on index.html
 -spotted leaves picture is broken on index.html
 -What's Happening at The Conservatory is too tall on mobile index.html
 -admission heights need to be taller
 -fix volunteering responsive heights to be shorter in places
 -fix admission heights mobile
+
+Check-07 Server-Testing-03
+-admission mobile red in the nav
+-add YouTube Logo
+-fix mobile heights hbc_index.html
+-fix mobile jumbo membership
+-fix footer email to work
+-fix contact form to work
+-nav display none again
+-sub-menu display none again
+-sitewide change for footer based on about.html
+-sitewide change for JavaScript based on about.html
+-change sitemap to reflect new success.html
+-make success.html
