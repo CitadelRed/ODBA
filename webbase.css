@@ -51,6 +51,17 @@
 		margin:100px 0px;
 	}
 }
+.anton {
+    font-family: "Anton", sans-serif;
+    font-weight: 200;
+    font-size: 2.5em;
+    font-style: normal;
+  }
+.sarabun {
+font-family: "Sarabun", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
 body {
     font-family: "verdana", "arial", "helvetica", "sans-serif";
     font-size: 1.2em;
@@ -74,9 +85,10 @@ img{
     width:100%;
     height:auto;
 }
-.logodiv{
+.logodiv, .logodiv a img{
     float:left;
-    width:135px;
+    width:auto;
+    height:100%;
 }
 .button{
     background-color:rgba(92,225,230,1.00);
@@ -156,6 +168,20 @@ hr{
 .article iframe{
 	width:100%;
 }
+.star-article{
+    width:100%;
+    text-align:center;
+    background-color: rgba(32,32,32,1.00);
+}
+.star-article p{
+    width:50%;
+    margin:auto;
+    text-align:center;
+}
+.star-article .star{
+    width:50px;
+    height:auto;
+}
 .article a{
 	font-size:40px;
 }
@@ -189,7 +215,10 @@ hr{
 }
 .port-piece h3, .port-piece p{
     color:rgba(0,0,0,1.00);
-    text-shadow: 3px 3px 5px rgba(0,0,0,0.60);
+    text-shadow: 3px 3px 10px rgba(0,0,0,0.60);
+}
+.dropshad{
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
 }
 .sitemap img{
     margin:10px 0px;
